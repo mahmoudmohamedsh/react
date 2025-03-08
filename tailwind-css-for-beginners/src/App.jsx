@@ -7,6 +7,7 @@ import Hero from './components/Hero'
 import Analytics from './components/analytics' 
 import Newsletter from './components/Newsletter'
 import Cards from './components/Cards'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <Analytics />
       <Newsletter />
       <Cards />
+      <Footer />
     </>
   )
 }
